@@ -1,0 +1,290 @@
+body {
+	padding: 25px;
+	background-color: aliceblue;
+	color: #777777;
+	max-width: 1440px
+}
+
+header {
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: Bold;
+	color: white;
+	padding: 26px;
+	margin-bottom: 75px;
+	border-color: #cccccc;
+}
+
+
+#name {
+	background-color: #4aaaa5;
+	padding: 25px;
+	margin-left: 90px;
+
+}
+
+nav {
+	font-size: 25px;
+	float:right;
+	margin-right: 35px;
+}
+
+	.buttons {
+	    background-color: #ffffff;
+	    border: none;
+	    color: gray;
+	    padding: 5px 20px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 18px;
+	    margin: -13px 2px;
+	    cursor: pointer;
+	    clear: both;
+	    overflow: auto;
+}
+
+.about{
+	background-color: #ffffff;
+	margin-left: 120px;
+	padding: 25px;
+	height: 400px;
+	width: 550px;
+	float:left;
+	clear: both;
+
+}
+
+#headings {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: Bold;
+	padding: 20px;
+	margin-left: -230px;
+	margin-right: 120px;
+	clear: both;
+	overflow: auto;
+}
+
+
+#paragraph{
+	margin-top: 40px;
+	border-top-color: gray;
+	clear: both;
+	overflow: auto;
+}
+
+.aboutimage{
+	float:left;
+	margin: 20px;
+	margin-left: -10px;
+}
+
+
+#connect{
+	height: 200px;
+	width: 350px;
+	background-color: #ffffff;
+	float:right;
+	margin-right: 60px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	font-weight: Bold;
+	text-align: center;
+	margin-bottom: -10px;
+	padding: 15px;
+	float: right;
+
+}
+
+.mailimage{
+	display: block;
+	clear: both;
+	overflow: auto;
+	margin-top: 25px;
+	alignment-baseline: center;
+	
+}
+
+.linkedin{
+	margin-top: -85px;
+	margin-bottom: 200px;
+	display: inline-block;
+
+
+}
+
+.github{
+	float: right;
+	margin-top: -85px;
+	display: block;
+
+
+}
+
+#work{
+float: right;
+display: inline-block; 
+}
+.contact-container{
+	float:right;
+	font-size: 30px;
+}
+
+footer{
+
+	height: 30px;
+	padding:20px;
+	background-color:#666666;
+	margin-top: 650px;
+	text-align: center;
+	border-color: white;
+	border-style: thick;
+	color: white;
+}
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+#main-container {
+  padding-top: 130px;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+/* portfolio page */
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+
+
+@media screen and (max-width: 1241px) {
+
+body{
+	max-width: 980px;
+}
+
+#name {
+	padding: 25px;
+	margin-left: 20px;
+}
+
+.buttons {
+	    margin: 0px 2px;
+	    cursor: pointer;
+	    clear: both;
+	    overflow: auto;
+
+}
+
+
+.about{
+	width: 400px;
+	float:left;
+	clear: both;
+	margin-left: 30px;
+	height: 556px;
+}
+#connect{
+	width: 300px;
+	float:right;
+}
+
+footer{
+	height: 10px;
+	margin-top: 1110px;
+}
+
+#main-container{
+	width:270px;
+	padding-top: 50px;
+
+}
+
+
+
+  }
